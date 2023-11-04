@@ -1,0 +1,207 @@
+.logo{
+	font-size: 2.5em;
+	color: white;
+}
+a.nome h4{
+	color: white;
+	text-decoration: none;
+}
+a.nome h4:hover{
+	color: white;
+	text-decoration: underline;
+}
+a{
+	text-decoration: none;
+}
+/******* Layout ********/
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden;
+}
+body{
+	background: url(../imagem/capa.png),
+	            url(../imagem/ruido.png),
+	            linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;         
+}
+/****** Barra de Navegação *******/
+nav.navbar-transparente{
+	padding: 15px 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #00FF40;
+}
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+.divisor{
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+/********* capa **********/
+.capa{
+	text-align: center;
+}
+/********* Serviços *********/
+#servicos{
+	background: white;
+}
+.img{
+	margin-top: 10px;
+}
+.img-2{
+	margin-top: 20px;
+}
+.rotacionar{
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	padding-left: 80px;
+}
+/********* tipografia **********/
+#servicos h2, h3{
+	color: #7c25f8;
+}
+#servicos p{
+	color: black;
+}
+#recursos h3{
+	color: #9bf0e1;
+}
+#recursos h2, p{
+	color: white;
+}
+.caixa{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+h1{
+	font-weight: 900;
+	letter-spacing: -0,05em;
+	margin-bottom: 50px;
+	color: white;
+}
+h2{
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+h3{
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+/* Extra Small divices */
+@media(max-width: 575.98px){
+	.btn-outline-custom{
+		margin-top: 10px;
+	}
+}
+/* Small devices */
+@media(min-width: 576px) and (max-width: 567.98px){
+	h1{
+		font-size: 3em;
+	}
+	.btn-outline-custom{
+		margin-top: 10px;
+	}
+}
+/* Medium devices*/
+@media(min-width: 568px) and (max-width: 991.98px){
+	h1{
+		font-size: 4em;
+	}
+	.btn-outline-custom{
+		margin-top: 10px;
+	}
+}
+/* Large devices */
+@media(min-width: 992px) and (max-width: 1199.98px){
+	h1{
+		font-size: 5em;
+	}
+}
+/* Extra Large devices */
+@media(min-width: 1200px){
+	h1{
+		font-size: 5.9em;
+	}
+}
+/********** Botões Customizados **********/
+.btn-custom{
+	border-radius: 125px;
+	border: 4px solid #8A0886;
+	color: white;
+	background: #8A0886;
+	text-transform: uppercase;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	transition: background 0.7s color 0.7s;
+}
+.btn-custom:hover{
+	background: transparent;
+	border: 4px solid #8A0886;
+	color: #00FF40;
+	transition: background 0.7s color 0.7s;
+}
+.btn-outline-custom{
+	border-radius: 120px;
+	border: 4px solid white;
+	background: transparent;
+	color: white;
+	margin-left: 7px;
+	text-transform: uppercase;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	transition: background 0.7s color 0.7s;
+}
+.btn-outline-custom:hover{
+	color: #00FF40;
+	background: white;
+	border: 4px solid white;
+	transition: background 0.7s color 0.7s;
+}
+/************ Carousel *************/
+.distancia-1{
+	margin-right: 150px;
+}
+.distancia-2{
+	margin-left: 150px;
+}
+.botao{
+	border-radius: 120px;
+	border: 4px solid white;
+}
+/************ Rodapé *************/
+footer{
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+footer h4{
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+footer .navbar-nav a{
+	color: white;
+	font-size: 0.8em;
+}
+footer .navbar-nav a:hover{
+	color: #00FF40;
+	text-decoration: none;
+}
+.col-md-4 ul li{
+	float: right;
+	margin: 0px 5px;
+}
+ul{
+	list-style: none;
+}
